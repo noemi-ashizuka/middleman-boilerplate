@@ -1,0 +1,15 @@
+.half-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list-styled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
