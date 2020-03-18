@@ -34,14 +34,30 @@ title: Le Wagon Middleman boilerplate
     </div>
   </div>
   <div class="half-page">
-    <div class="project-img">
-      <!-- image carousel -->
+    <!-- project 1 -->
+    <div class="project-content">
+      <div class="project-img">
+        <!-- image carousel -->
+        <%= partial('carousel', locals: { image1: 'cc_home.png', image2: 'cc_profile.png', image3: 'cc_look.png', image4: 'cc_look_show.png'}) %>
+      </div>
     </div>
+    <div class="project-info">
+      <h1>Clever Closet</h1>
+      <h3>Ruby on Rails, HTMl, SCSS, JavaScript</h3>
+      <p>Description</p>
+    </div>
+    
+    <!-- project 2 -->
     <div class="project-info">
       <h1>Title</h1>
       <h3>Languages</h3>
       <p>Description</p>
     </div>
+    <div class="project-img">
+      <!-- image carousel -->
+    </div>
+
+    <!-- project 3 -->
     <div class="project-info">
       <h1>Title</h1>
       <h3>Languages</h3>

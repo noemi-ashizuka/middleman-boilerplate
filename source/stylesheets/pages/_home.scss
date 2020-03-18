@@ -1,15 +1,32 @@
 .half-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #CDCDCD;
 }
 
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #6C969D;
 }
 
 .list-styled {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.project-content {
+  margin: 24px;
+}
+
+.project-img {
+  width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.project-info {
+  padding: 24px;
 }
