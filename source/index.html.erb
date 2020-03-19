@@ -35,22 +35,19 @@ title: Le Wagon Middleman boilerplate
   </div>
   
   <div class="half-page">
-   <!-- project 1 -->
-      <div class="project-content">
-        <div class="project-img">
-          <!-- image carousel -->
-          <%= partial('carousel', locals: { image1: 'cc_home.png', image2: 'cc_profile.png', image3: 'cc_look.png', image4: 'cc_look_show.png'}) %>
-        </div>
-      
+    <!-- project 1 -->
+    <div class="project-content">
+      <div class="project-img">
+        <!-- image carousel -->
+        <%= partial('carousel', locals: { carouselControls: 'carousel_cc', image1: 'cc_home.png', image2: 'cc_profile.png', image3: 'cc_look.png', image4: 'cc_look_show.png'}) %>
+      </div>
       <div class="project-info">
         <h1>Clever Closet</h1>
         <h3>Ruby on Rails, HTMl, SCSS, JavaScript</h3>
         <p>Description</p>
       </div>
-   </div>
-  
-  
-  <!-- project 2 -->
+    </div>
+    <!-- project 2 -->
     <div class="project-content">
       <div class="project-info">
         <h1>Title</h1>
@@ -59,24 +56,18 @@ title: Le Wagon Middleman boilerplate
       </div>
       <div class="project-img-lg">
         <!-- image carousel -->
-        <%= partial('carousel', locals: { image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png'}) %>
+        <%= partial('carousel', locals: { carouselControls: 'carousel_obi', image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png'}) %>
       </div>
     </div>
-   
-  
- 
     <!-- project 3 -->
-  
-  <div class="project-content">
-    <div class="project-info">
-      <h1>Title</h1>
-      <h3>Languages</h3>
-      <p>Description</p>
+    <div class="project-content">
+      <div class="project-info">
+        <h1>Title</h1>
+        <h3>Languages</h3>
+        <p>Description</p>
+      </div>
+        <!-- image carousel -->
+      </div>
     </div>
-    <div class="project-img-lg">
-      <!-- image carousel -->
-      <%= partial('carousel', locals: { image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png'}) %>
-    </div>
-  </div>
   </div> <!--half-page(column) -->
 </div><!-- .welcome -->
