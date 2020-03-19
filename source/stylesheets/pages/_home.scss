@@ -1,9 +1,14 @@
-.half-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #CDCDCD;
-}
+// .half-page {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   background-color: #CDCDCD;
+// }
 
+.page-container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,7 +22,10 @@
 }
 
 .project-content {
-  margin: 24px;
+  //margin: 24px;
+  display: flex;
+  background-color: blue($color: #000000);
+  min-height: 100vh;
 }
 
 .project-img {
@@ -29,4 +37,28 @@
 
 .project-info {
   padding: 24px;
+  width: 400px;
+ 
+  flex-grow: 1;
+}
+
+.project-img-lg {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+ 
+}
+
+.carousel .item {
+  height: 300px;
+  
+}
+
+.item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+    max-width: 400px;
 }
