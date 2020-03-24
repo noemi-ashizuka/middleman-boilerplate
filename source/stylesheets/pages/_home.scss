@@ -13,6 +13,7 @@ html body {
   }
   p {
     font-size: 16px;
+    padding: 8px;
   }
   ul {
     letter-spacing: 0.5px;
@@ -76,16 +77,28 @@ html body {
   margin-bottom: 24px;
 }
 
+.project-info {
+  width: 400px;
+  flex-grow: 1;
+}
+
+.icons-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 16px;
+  i {
+    margin: 4px;
+    font-size: 24px;
+    color: #acced4;
+  }
+}
+
 .project-img {
   width: 350px;
   height: 500px;
   margin: 0 auto;
   padding: 24px;
-}
-
-.project-info {
-  width: 400px;
-  flex-grow: 1;
 }
 
 .project-img-lg {
