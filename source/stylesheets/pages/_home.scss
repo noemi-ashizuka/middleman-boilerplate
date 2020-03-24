@@ -26,11 +26,25 @@ html body {
   background-color: white;
   margin-bottom: 24px;
 }
-.skills-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.skills {
   background-color: #acced4;
-  padding: 8px;
+  color: white;
+  margin: 16px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-line {
+  border: 1px solid #acced4;
+  color: #acced4;
+
+
+  &:hover {
+    opacity: 0.5;
+    color: #acced4;
+  }
 }
 
 .list-styled {

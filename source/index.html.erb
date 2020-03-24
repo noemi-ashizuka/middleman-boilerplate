@@ -12,27 +12,7 @@ title: Le Wagon Middleman boilerplate
   <div class="bio-long">
     <p>Something about myself</p>
     <!-- dropdown -->
-    <div class="skills-container">
-      <div class="skills">
-        <ul class="list-styled">
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS/SCSS</li>
-        </ul>
-      </div>
-      <!-- dropdown -->
-      <div class="skills">
-        <ul class="list-styled">
-          <li>Communication</li>
-          <li>Leadership</li>
-          <li>Reliability</li>
-          <li>English(Fluent)</li>
-          <li>Japanese(JLPT N3)</li>
-        </ul>
-      </div>
-    </div>
+    <%= partial 'dropdown' %>
   </div>
   
   <div class="half-page">
@@ -57,7 +37,7 @@ title: Le Wagon Middleman boilerplate
       </div>
       <div class="project-img-lg">
         <!-- image carousel -->
-        <%= partial('carousel', locals: { carouselControls: 'carousel_obi', image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png', class_set: 'd-block w-100 slide-short'}) %>
+        <%= partial('carousel', locals: { carouselControls: 'carousel_obi', image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_show.png', image4: 'obi_dashyuka.png', class_set: 'd-block w-100 slide-short'}) %>
       </div>
     </div>
     <!-- project 3 -->
