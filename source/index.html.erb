@@ -2,7 +2,7 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="page-container">
+<div class="page-container top-circle">
   <div class="title-center">
     <!-- profile image -->
     <%= image_tag "images/noemipic.jpg", alt:"author image", class:"avatar-lg" %>
@@ -12,9 +12,11 @@ title: Le Wagon Middleman boilerplate
   <div class="bio-long">
     <p>Something about myself</p>
     <!-- dropdown -->
-    <%= partial 'dropdown' %>
+    <div class="skills-container">
+      <%= partial 'dropdown' %>
+    </div>
   </div>
-  
+  <h1 class="title-stripe">Projects</h1>
   <div class="half-page">
     <!-- project 1 -->
     <div class="project-content">

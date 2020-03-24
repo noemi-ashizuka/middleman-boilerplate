@@ -25,7 +25,21 @@ html body {
   text-align: center;
   background-color: white;
   margin-bottom: 24px;
+  margin-top: 24px;
 }
+
+.top-circle {
+  background-color: white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+}
+
+.title-stripe {
+  width: 100%;
+  background-color: #ededed;
+  padding: 24px;
+}
+
 .skills {
   background-color: #acced4;
   color: white;
@@ -59,6 +73,7 @@ html body {
   background-color: blue($color: #000000);
   min-height: 100%;
   margin: 32px;
+  margin-bottom: 24px;
 }
 
 .project-img {
@@ -69,7 +84,6 @@ html body {
 }
 
 .project-info {
-  padding: 24px;
   width: 400px;
   flex-grow: 1;
 }
@@ -77,26 +91,13 @@ html body {
 .project-img-lg {
   width: 500px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 
 .text-clear {
   color: #848484;
   opacity: 0.5;
 }
-
-// .carousel .item {
-//   height: 300px;
-  
-// }
-
-// .item img {
-//     position: absolute;
-//     object-fit: cover;
-//     top: 0;
-//     left: 0;
-//     min-height: 100px;
-//     max-width: 400px;
-// }
 
 .slide-tall {
   height: 480px;
