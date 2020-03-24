@@ -4,15 +4,33 @@
 //   background-color: #CDCDCD;
 // }
 
+html body {
+  font-family: $header-font;
+  color: #383838;
+  background-color: #ededed;
+  h1, h2, h3 {
+    font-family: $base-font;
+  }
+  p {
+    font-size: 16px;
+  }
+  ul {
+    letter-spacing: 0.5px;
+  }
+}
+
 .page-container {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
   text-align: center;
+  background-color: white;
+  margin-bottom: 24px;
 }
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #6C969D;
+  background-color: #acced4;
+  padding: 8px;
 }
 
 .list-styled {
@@ -25,7 +43,8 @@
   //margin: 24px;
   display: flex;
   background-color: blue($color: #000000);
-  min-height: 100vh;
+  min-height: 100%;
+  margin: 32px;
 }
 
 .project-img {
@@ -42,8 +61,13 @@
 }
 
 .project-img-lg {
-  width: 100%;
+  width: 500px;
   margin: 0 auto;
+}
+
+.text-clear {
+  color: #848484;
+  opacity: 0.5;
 }
 
 // .carousel .item {

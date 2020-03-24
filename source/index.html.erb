@@ -5,6 +5,7 @@ title: Le Wagon Middleman boilerplate
 <div class="page-container">
   <div class="title-center">
     <!-- profile image -->
+    <%= image_tag "images/noemipic.jpg", alt:"author image", class:"avatar-lg" %>
     <h1>Noemi Ashizuka</h1>
     <h2>Web Developer in Tokyo</h2>
   </div>
@@ -43,15 +44,15 @@ title: Le Wagon Middleman boilerplate
       </div>
       <div class="project-info">
         <h1>Clever Closet</h1>
-        <h3>Ruby on Rails, HTMl, SCSS, JavaScript</h3>
+        <h3 class="text-clear">Ruby on Rails, HTMl, SCSS, JavaScript</h3>
         <p>Description</p>
       </div>
     </div>
     <!-- project 2 -->
     <div class="project-content">
       <div class="project-info">
-        <h1>Title</h1>
-        <h3>Languages</h3>
+        <h1>Obi</h1>
+        <h3 class="text-clear">Languages</h3>
         <p>Description</p>
       </div>
       <div class="project-img-lg">
@@ -60,14 +61,28 @@ title: Le Wagon Middleman boilerplate
       </div>
     </div>
     <!-- project 3 -->
+      <div class="project-content"> 
+        <div class="project-img-lg">
+        <!-- image carousel -->
+          <%= partial('carousel', locals: { carouselControls: 'carousel_bc', image1: 'bc_home.png', image2: 'bc_card_one.png', image3: 'bc_card_two.png', image4: 'bc_list.png', class_set: 'd-block w-100 slide-short'}) %>
+        </div>
+        <div class="project-info">
+          <h1>Bartender Cocktail</h1>
+          <h3 class="text-clear">Languages</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <!-- project 4 -->
     <div class="project-content">
       <div class="project-info">
-        <h1>Title</h1>
-        <h3>Languages</h3>
+        <h1>Sailor Warrior Maker</h1>
+        <h3 class="text-clear">Languages</h3>
         <p>Description</p>
       </div>
         <div class="project-img-lg">
         <!-- image carousel -->
+        <%= partial('carousel', locals: { carouselControls: 'carousel_swm', image1: 'swm_home.png', image2: 'swm_list.png', image3: 'swm_card.png', image4: 'swm_card_two.png', class_set: 'd-block w-100 slide-short'}) %>
         </div>
       </div>
     </div>
