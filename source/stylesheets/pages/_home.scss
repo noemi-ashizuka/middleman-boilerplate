@@ -38,15 +38,12 @@
 .project-info {
   padding: 24px;
   width: 400px;
- 
   flex-grow: 1;
 }
 
 .project-img-lg {
-  width: 600px;
+  width: 100%;
   margin: 0 auto;
-  padding: 40px;
- 
 }
 
 // .carousel .item {
@@ -63,7 +60,12 @@
 //     max-width: 400px;
 // }
 
-.slide {
+.slide-tall {
+  height: 480px;
+  width: 200px;
+}
+
+.slide-short {
   height: 400px;
-  width: 400px;
+  width: 530px;
 }

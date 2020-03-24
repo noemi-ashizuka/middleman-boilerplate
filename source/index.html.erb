@@ -39,7 +39,7 @@ title: Le Wagon Middleman boilerplate
     <div class="project-content">
       <div class="project-img">
         <!-- image carousel -->
-        <%= partial('carousel', locals: { carouselControls: 'carousel_cc', image1: 'cc_home.png', image2: 'cc_profile.png', image3: 'cc_look.png', image4: 'cc_look_show.png'}) %>
+        <%= partial('carousel', locals: { carouselControls: 'carousel_cc', image1: 'cc_home.png', image2: 'cc_profile.png', image3: 'cc_look.png', image4: 'cc_look_show.png', class_set: 'd-block w-100 slide-tall'}) %>
       </div>
       <div class="project-info">
         <h1>Clever Closet</h1>
@@ -56,7 +56,7 @@ title: Le Wagon Middleman boilerplate
       </div>
       <div class="project-img-lg">
         <!-- image carousel -->
-        <%= partial('carousel', locals: { carouselControls: 'carousel_obi', image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png'}) %>
+        <%= partial('carousel', locals: { carouselControls: 'carousel_obi', image1: 'obi_home.png', image2: 'obi_listings.png', image3: 'obi_home.png', image4: 'obi_listings.png', class_set: 'd-block w-100 slide-short'}) %>
       </div>
     </div>
     <!-- project 3 -->
@@ -66,7 +66,9 @@ title: Le Wagon Middleman boilerplate
         <h3>Languages</h3>
         <p>Description</p>
       </div>
+        <div class="project-img-lg">
         <!-- image carousel -->
+        </div>
       </div>
     </div>
   </div> <!--half-page(column) -->
