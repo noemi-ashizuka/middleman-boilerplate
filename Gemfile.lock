@@ -8,12 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.7.5)
-      execjs
     backports (3.8.0)
-    bootstrap-sass (3.4.1)
-      autoprefixer-rails (>= 5.2.1)
-      sassc (>= 2.0.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -118,7 +113,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
   font-awesome-sass
   jquery-middleman
   middleman (~> 4.2)
