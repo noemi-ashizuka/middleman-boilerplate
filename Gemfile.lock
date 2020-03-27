@@ -44,8 +44,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.12.2)
-    font-awesome-sass (4.5.0)
-      sass (>= 3.2)
+    font-awesome-sass (5.6.1)
+      sassc (>= 1.11)
     haml (5.0.3)
       temple (>= 0.8.0)
       tilt
@@ -166,7 +166,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap (~> 4.4.1)
-  font-awesome-sass
+  font-awesome-sass (~> 5.6.1)
   jquery-middleman
   middleman (~> 4.2)
   middleman-gh-pages

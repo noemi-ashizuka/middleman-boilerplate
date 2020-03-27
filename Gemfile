@@ -20,7 +20,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 # Assets
 gem 'jquery-middleman'
 gem 'bootstrap', '~> 4.4.1'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.6.1'
 
 # Assets compiling
 ## SCSS glob compiling
