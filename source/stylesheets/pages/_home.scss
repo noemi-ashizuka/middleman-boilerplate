@@ -1,9 +1,3 @@
-// .half-page {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   background-color: #CDCDCD;
-// }
-
 html body {
   font-family: $header-font;
   color: #383838;
@@ -21,7 +15,7 @@ html body {
 }
 
 .page-container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   background-color: white;
@@ -75,11 +69,13 @@ html body {
   min-height: 100%;
   margin: 32px;
   margin-bottom: 24px;
+  padding: 32px;
 }
 
 .project-info {
   width: 400px;
   flex-grow: 1;
+  text-align: left;
 }
 
 .icons-inline {
@@ -125,7 +121,7 @@ html body {
 }
 
 .project-img-lg {
-  width: 500px;
+  width: 480px;
   margin: 0 auto;
   margin-bottom: 24px;
 }
@@ -147,4 +143,10 @@ html body {
 
 .spacer {
   height: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .project-img-lg {
+    width: 350px;
+  }
 }
