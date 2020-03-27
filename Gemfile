@@ -6,7 +6,6 @@ gem "middleman", "~> 4.2"
 
 # Live-reloading plugin
 # gem "middleman-livereload"
-gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # Deploy on github pages
 gem 'middleman-gh-pages'
@@ -19,8 +18,8 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Assets
 gem 'jquery-middleman'
-gem 'bootstrap', '~> 4.4.1'
-gem 'font-awesome-sass', '~> 5.6.1'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
 
 # Assets compiling
 ## SCSS glob compiling
