@@ -6,6 +6,7 @@ gem "middleman", "~> 4.2"
 
 # Live-reloading plugin
 # gem "middleman-livereload"
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # Deploy on github pages
 gem 'middleman-gh-pages'
